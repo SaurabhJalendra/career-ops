@@ -1,0 +1,67 @@
+# Career-Ops Profile Configuration — Saurabh Jalendra
+
+candidate:
+  full_name: "Saurabh Jalendra"
+  email: "saurabhjalendra@gmail.com"
+  phone: "+91-9783982649"
+  location: "Jaipur, Rajasthan, India"
+  linkedin: "linkedin.com/in/saurabh-jalendra"
+  portfolio_url: "https://saurabhjalendra.com"
+  github: "github.com/SaurabhJalendra"
+
+target_roles:
+  primary:
+    - "Research Engineer"
+    - "ML Research Engineer"
+    - "Research Scientist"
+  archetypes:
+    - name: "Research Engineer (RL/World Models)"
+      level: "Mid-Senior"
+      fit: "primary"
+    - name: "ML Research Engineer (Scientific Computing)"
+      level: "Mid-Senior"
+      fit: "primary"
+    - name: "Applied Research Scientist"
+      level: "Junior-Mid"
+      fit: "secondary"
+    - name: "ML Engineer (Infra/Training)"
+      level: "Mid-Senior"
+      fit: "secondary"
+    - name: "Agentic AI / LLM Engineer"
+      level: "Mid-Senior"
+      fit: "adjacent"
+
+narrative:
+  headline: "AI/ML Researcher specializing in world models, reinforcement learning, and scientific simulation"
+  exit_story: "From CS engineering to financial AI products to research — building systems that understand and simulate the physical world. Co-founded SKY AI to solve real-world document intelligence, then pivoted fully to research: quantum-inspired world models, domain-agnostic scientific discovery, and rigorous experimental methodology."
+  superpowers:
+    - "World model training (DreamerV3-style, JAX/PyTorch, 200-experiment evaluation)"
+    - "Scientific simulation pipelines (187 domains, symbolic regression, R² ≥ 0.999)"
+    - "Full-stack AI product delivery (Klares DDQ autofill, International Citizen)"
+    - "Rigorous experimental methodology (Bonferroni correction, Mann-Whitney U, 5 seeds × 8 envs)"
+    - "Agent system architecture (Claude Code skill authoring, multi-agent orchestration)"
+  proof_points:
+    - name: "Simulating Anything"
+      url: "https://github.com/SaurabhJalendra/Simulating-Anything"
+      hero_metric: "187 simulation domains, R² ≥ 0.999 on 11/14 core domains, 570 cross-domain isomorphisms"
+    - name: "Quantum-Enhanced Simulation Learning for RL"
+      url: "https://github.com/SaurabhJalendra/Quantum-Enhanced-Simulation-Learning-for-Reinforcement-Learning"
+      hero_metric: "36-47% MSE reduction on DMControl robotics (p<0.008, Bonferroni corrected)"
+    - name: "Klares (Document Intelligence)"
+      url: null
+      hero_metric: "RAG-based DDQ autofill for Hong Kong finance with pgvector + cross-encoder re-ranking"
+    - name: "Multimodal Gravitational Lensing"
+      url: "https://github.com/SaurabhJalendra/GravitationalLens-MultimodalDL"
+      hero_metric: "CNN+LSTM fusion, 76% F1 on non-lens detection, 20K DES-deep samples"
+
+compensation:
+  target_range: "SGD 120K-180K / CHF 120K-160K / GBP 80K-120K / EUR 90K-130K"
+  currency: "varies by location"
+  minimum: "SGD 96K / CHF 100K / GBP 65K / EUR 75K"
+  location_flexibility: "Open to relocate to Singapore, Switzerland, UK, Luxembourg. Remote acceptable."
+
+location:
+  country: "India"
+  city: "Jaipur"
+  timezone: "IST (UTC+5:30)"
+  visa_status: "Requires sponsorship for all target locations"

@@ -1,0 +1,166 @@
+# Portal Scanner Configuration — Saurabh Jalendra
+# Research Engineer roles at AI labs and research institutions
+
+title_filter:
+  positive:
+    # Research roles
+    - "Research Engineer"
+    - "Research Scientist"
+    - "Applied Scientist"
+    - "ML Research"
+    - "AI Research"
+    - "Research Associate"
+    # ML/AI Engineering roles
+    - "ML Engineer"
+    - "Machine Learning Engineer"
+    - "AI Engineer"
+    - "Deep Learning Engineer"
+    # Specific domains
+    - "Reinforcement Learning"
+    - "World Model"
+    - "Scientific Computing"
+    - "Simulation"
+    - "LLM Engineer"
+    - "Agent Engineer"
+    - "NLP Engineer"
+    # Platform/Infra roles
+    - "ML Platform"
+    - "MLOps"
+    - "AI Infrastructure"
+    - "Training Engineer"
+  negative:
+    # Too senior
+    - "Director"
+    - "VP"
+    - "Principal"
+    - "Head of"
+    - "Chief"
+    # Too junior
+    - "Intern"
+    - "Junior"
+    - "Entry Level"
+    - "Graduate"
+    # Wrong track
+    - "Sales Engineer"
+    - "Marketing"
+    - "Recruiter"
+    - "Designer"
+    - "Product Manager"
+    - "Project Manager"
+    # Wrong stack
+    - "iOS"
+    - "Android"
+    - ".NET"
+    - "PHP"
+    - "Ruby"
+    - "Embedded"
+    - "Firmware"
+    - "FPGA"
+
+# -- Tracked Companies --
+tracked_companies:
+  # === PRIMARY TIER ===
+  - name: Anthropic
+    careers_url: https://boards.greenhouse.io/anthropic
+    api: greenhouse
+    api_id: anthropic
+    enabled: true
+    notes: "Primary target — safety, RLHF, Constitutional AI"
+
+  - name: OpenAI
+    careers_url: https://boards.greenhouse.io/openai
+    api: greenhouse
+    api_id: openai
+    enabled: true
+    notes: "GPT, reasoning, alignment"
+
+  - name: Google DeepMind
+    careers_url: https://deepmind.google/careers/
+    enabled: true
+    notes: "No API — manual check or LinkedIn. AlphaFold, Gemini, world models"
+
+  - name: Meta FAIR
+    careers_url: https://www.metacareers.com/jobs?teams[0]=Artificial%20Intelligence
+    enabled: true
+    notes: "No API — manual check or LinkedIn. Open research, LLaMA"
+
+  # === SECONDARY TIER ===
+  - name: Mistral AI
+    careers_url: https://jobs.ashbyhq.com/mistral
+    api: ashby
+    api_id: mistral
+    enabled: true
+    notes: "Paris-based, open-weight models"
+
+  - name: ByteDance
+    careers_url: https://jobs.bytedance.com/en/
+    enabled: true
+    notes: "No API — large-scale ML, recommendation, NLP"
+
+  - name: AMI Labs
+    careers_url: https://www.advancedmachineintelligence.com/careers
+    enabled: true
+    notes: "London — ex-DeepMind founders, AGI safety"
+
+  - name: Thinking Machines
+    careers_url: https://thinkingmachin.es/careers
+    enabled: true
+    notes: "Manila/SEA — applied AI, data infrastructure"
+
+  # === RESEARCH LABS ===
+  - name: ETH Zurich
+    careers_url: https://eth.ch/en/the-eth-zurich/working-teaching-and-research/faculty-affairs/open-positions.html
+    enabled: true
+    notes: "Academic — check specific lab pages"
+
+  - name: EPFL
+    careers_url: https://www.epfl.ch/about/working/working-at-epfl/
+    enabled: true
+    notes: "Academic — AI, robotics, computational neuroscience"
+
+  - name: CERN
+    careers_url: https://careers.cern/
+    enabled: true
+    notes: "ML for physics — particle reconstruction, simulation"
+
+  # === REGIONAL ===
+  - name: Sea AI Lab
+    careers_url: https://careers.sea.com/
+    enabled: true
+    notes: "Singapore — Sea Group AI research arm"
+
+  - name: AI Singapore
+    careers_url: https://aisingapore.org/careers/
+    enabled: true
+    notes: "Singapore national AI programme"
+
+# -- Search Queries --
+# Rotated across days for LinkedIn advisory mode
+search_queries:
+  - query: "research engineer reinforcement learning"
+    locations: ["Singapore", "Zurich", "London"]
+    enabled: true
+  - query: "ML research engineer world models"
+    locations: ["Singapore", "London", "Remote"]
+    enabled: true
+  - query: "research scientist scientific computing ML"
+    locations: ["Zurich", "Luxembourg", "Remote"]
+    enabled: true
+  - query: "AI engineer JAX PyTorch"
+    locations: ["Singapore", "London", "Paris"]
+    enabled: true
+  - query: "applied scientist machine learning"
+    locations: ["Singapore", "Zurich", "London"]
+    enabled: true
+  - query: "LLM engineer agent systems"
+    locations: ["Singapore", "London", "Remote"]
+    enabled: true
+  - query: "ML platform engineer training infrastructure"
+    locations: ["Singapore", "Zurich", "London"]
+    enabled: true
+  - query: "research engineer simulation symbolic regression"
+    locations: ["Zurich", "London", "Remote"]
+    enabled: true
+  - query: "deep learning engineer computer vision NLP"
+    locations: ["Singapore", "London", "Luxembourg"]
+    enabled: true
