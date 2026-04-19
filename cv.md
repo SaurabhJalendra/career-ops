@@ -46,7 +46,7 @@ Reinforcement learning, world models, scientific simulation and discovery, symbo
 ### Simulating Anything — [GitHub](https://github.com/SaurabhJalendra/Simulating-Anything) (Feb 2026 – Present)
 
 - Domain-agnostic scientific discovery pipeline: natural language query → simulation → RSSM world model (JAX/Equinox) → symbolic regression → human-interpretable equations.
-- Implemented 187 simulation domains across physics, biology, and chemistry; PySR/SINDy recovered known physical laws with R² ≥ 0.999 on 11/14 core domains (mean R² = 0.970).
+- Implemented 187 simulation domains across physics, biology, and chemistry; PySR/SINDy recovered known physical laws with R² ≥ 0.999 on 11/14 core domains (mean R² = 0.970); benchmarked on NVIDIA RTX 5090.
 - 570 cross-domain mathematical isomorphisms detected across 125 mathematical equivalence classes.
 
 ### Quantum-Enhanced Simulation Learning for RL — [GitHub](https://github.com/SaurabhJalendra/Quantum-Enhanced-Simulation-Learning-for-Reinforcement-Learning) (Nov 2025 – Feb 2026)
@@ -75,7 +75,8 @@ Reinforcement learning, world models, scientific simulation and discovery, symbo
 ## Technical Skills
 
 - **Languages:** Python, JavaScript/TypeScript, SQL
-- **ML/DL:** PyTorch, JAX/Equinox/Optax, TensorFlow/Keras, scikit-learn, PySR/PySINDy, Gymnasium, DMControl, OpenCV
+- **ML/DL:** PyTorch, JAX/Equinox/Optax, TensorFlow/Keras, scikit-learn, XGBoost, PyTorch Geometric, PySR/PySINDy, Gymnasium, DMControl, OpenCV
+- **Data/OCR:** Pandas, NumPy, Matplotlib, Seaborn, pdfplumber, Docling, RapidOCR
 - **LLM/NLP:** LangChain, LlamaIndex, Hugging Face, SBERT, Claude API, Gemini API, OpenRouter, RAG pipelines
 - **Web/Backend:** FastAPI, Node.js, Next.js, React, Streamlit, PostgreSQL, Redis, SQLite
 - **Cloud/DevOps:** AWS (S3, EC2, RDS), GCP, Docker, GitHub Actions, CI/CD
