@@ -2,7 +2,7 @@
 
 Add one URL per line. Run `/career-ops pipeline` to batch-evaluate all URLs (produces Blocks A-G scoring per posting).
 
-Last updated: 2026-04-18 (expanded scan: Anthropic + DeepMind + Mistral)
+Last updated: 2026-04-22 (AMI Labs added — Yann LeCun's $1B startup — NEW TOP PRIORITY)
 
 ---
 
@@ -10,15 +10,30 @@ Last updated: 2026-04-18 (expanded scan: Anthropic + DeepMind + Mistral)
 
 | Company | API | Total Jobs | RE/ML Filtered | Target-Location | Platform |
 |---------|-----|-----------|----------------|-----------------|----------|
+| **AMI Labs** | Ashby `/ami` | 5 | 2 | 2 (Paris/Singapore) | ✅ Ashby — **NEW** |
 | **Anthropic** | Greenhouse `/anthropic` | 435 | 43 | 41 | ✅ Greenhouse |
 | **DeepMind** | Greenhouse `/deepmind` | 85 | 23 | 6 | ✅ Greenhouse |
 | **Mistral** | Lever `/mistral` | 149 | 28 | 20 | ✅ Lever |
+| **OpenAI** | Ashby `/openai` | 650 | 27 | 0 target-location (SF-heavy) | ✅ Ashby (found 2026-04-21) |
 | **ETH Zurich** | Academic | 9 | 9 | 9 | Web scrape |
-| **OpenAI** | Custom | — | — | — | ❌ Bot-blocked |
 | **Meta FAIR** | Custom | — | — | — | ❌ Auth required |
 | **ByteDance, others** | Custom | — | — | — | Manual check |
 
 ---
+
+## Priority 0: AMI Labs — STRONGEST PIPELINE FIT ⭐⭐⭐
+
+**Apply within 72 hours.** Yann LeCun's new startup; $1.03B seed; 1-10 team; Paris/Montreal/NY/Singapore offices. World-model research = literal dissertation match.
+
+```
+https://jobs.ashbyhq.com/ami/da976389-9875-4eb6-b866-8097baed3178
+https://jobs.ashbyhq.com/ami/df8b17c5-97e6-49e7-abb9-c21a39e4162a
+```
+
+- **[AMI]** AMI Scientist (Paris/Montreal/NY/Singapore) — evaluated 4.8/5 — research framing ⭐⭐⭐
+- **[AMI]** AMI Engineer (Paris/Montreal/NY/Singapore) — evaluated 4.6/5 — engineering framing (backup)
+
+See `applications.md` for full Block A-G evaluations and CV personalization plan.
 
 ## Priority 1: Direct RL / World Model Matches (dissertation fit)
 
