@@ -55,13 +55,26 @@ narrative:
       hero_metric: "CNN+LSTM fusion, 76% F1 on non-lens detection, 20K DES-deep samples"
 
 compensation:
-  target_range: "SGD 120K-180K / CHF 120K-160K / GBP 80K-120K / EUR 90K-130K"
-  currency: "varies by location"
-  minimum: "SGD 96K / CHF 100K / GBP 65K / EUR 75K"
-  location_flexibility: "Open to relocate to Singapore, Switzerland, UK, Luxembourg. Remote acceptable."
+  target_range: "SGD 120K-180K / CHF 120K-160K / GBP 80K-120K / EUR 90K-130K / INR 40-80 LPA + equity"
+  currency: "varies by country"
+  minimum: "SGD 96K / CHF 100K / GBP 65K / EUR 75K / INR 30 LPA"
+  location_flexibility: "Open to relocate to Singapore, Switzerland, United Kingdom, Luxembourg, France, Canada, USA. Remote acceptable. India also acceptable as immediate-start backup."
+  india_context: "For Indian roles, the country-level target covers Indian frontier labs (Sarvam, Krutrim) and big-tech research arms (Microsoft Research India, Google Research India, NVIDIA AI India, Adobe Research India, IBM Research India). Indian offices of MNCs may also serve as bridge to international transfer. Within-India city preference order is informational only: Bangalore > Hyderabad > Pune > Delhi NCR > Remote-India."
 
 location:
   country: "India"
-  city: "Jaipur"
+  current_city: "Jaipur"
   timezone: "IST (UTC+5:30)"
-  visa_status: "Requires sponsorship for all target locations"
+  visa_status: "Requires sponsorship for foreign target countries. NO sponsorship needed for India-based roles (citizen)."
+  target_countries:
+    - Singapore
+    - Switzerland
+    - United Kingdom
+    - France
+    - Luxembourg
+    - Canada
+    - USA
+    - India
+  india_priority_cities: ["Bangalore", "Hyderabad", "Pune", "Delhi NCR", "Remote-India"]
+  willing_to_relocate_within_india: true
+  international_priority: "Foreign countries preferred for primary research engineering targets where visa sponsored. India serves as parallel pipeline + immediate-start backup."

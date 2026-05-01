@@ -134,6 +134,71 @@ tracked_companies:
     enabled: true
     notes: "Singapore national AI programme"
 
+  # === INDIA — FRONTIER LABS (added 2026-05-01) ===
+  - name: Sarvam AI
+    careers_url: https://www.sarvam.ai/careers
+    api: lever
+    api_id: sarvamai
+    enabled: true
+    notes: "India — Bangalore. Indic foundation models, $41M+ Series A. Direct dissertation match for LLM/RL work."
+
+  - name: Krutrim
+    careers_url: https://www.olakrutrim.com/careers
+    enabled: true
+    notes: "India — Bangalore. Ola Group AI lab. Foundation models for Indian languages, multimodal."
+
+  - name: Yellow.ai
+    careers_url: https://yellow.ai/careers/
+    enabled: true
+    notes: "India — Bangalore. Conversational AI / agent platform. Applied LLM + agent engineering."
+
+  # === INDIA — BIG TECH RESEARCH ARMS (added 2026-05-01) ===
+  - name: Microsoft Research India
+    careers_url: https://careers.microsoft.com/v2/global/en/india.html
+    enabled: true
+    notes: "India — Bangalore. Foundational research: ML systems, NLP, multilingual, theory. Filter for 'Research' roles."
+
+  - name: Google Research India
+    careers_url: https://careers.google.com/jobs/results/?location=India
+    enabled: true
+    notes: "India — Bangalore + Hyderabad. Google Research + DeepMind India presence. Filter for 'Research Engineer' / 'Research Scientist'."
+
+  - name: NVIDIA AI India
+    careers_url: https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite?locationHierarchy1=2fcb99c455831013ea52fb338f2932d8
+    enabled: true
+    notes: "India — Pune + Bangalore. Generative AI + ML systems. Workday board, filter India."
+
+  - name: Adobe Research India
+    careers_url: https://careers.adobe.com/us/en/search-results?keywords=research&location=Bangalore
+    enabled: true
+    notes: "India — Bangalore. ML research for creative tools, document AI, multimodal."
+
+  - name: IBM Research India
+    careers_url: https://www.research.ibm.com/labs/india/
+    enabled: true
+    notes: "India — Bangalore + Delhi. AI for industry, foundation models, hybrid cloud + AI."
+
+  # === INDIA — APPLIED AI (BACKUP TIER, added 2026-05-01) ===
+  - name: Amazon Science India
+    careers_url: https://www.amazon.jobs/en/search?base_query=applied+scientist&loc_query=India
+    enabled: true
+    notes: "India — Bangalore + Hyderabad. Applied science roles, recommender systems, conversational AI (Alexa)."
+
+  - name: Apple India ML
+    careers_url: https://jobs.apple.com/en-us/search?location=hyderabad-HYD
+    enabled: true
+    notes: "India — Hyderabad. ML/AI applied roles for Apple products. Limited research footprint but growing."
+
+  - name: Walmart Global Tech India
+    careers_url: https://careers.walmart.com/results?q=machine+learning&jobCity=Bangalore
+    enabled: true
+    notes: "India — Bangalore + Chennai. ML for retail, supply chain, search. Applied not research."
+
+  - name: Flipkart Labs
+    careers_url: https://www.flipkartcareers.com/
+    enabled: true
+    notes: "India — Bangalore. Applied ML for e-commerce search, ranking, recommendations."
+
 # -- Search Queries --
 # Rotated across days for LinkedIn advisory mode
 search_queries:
