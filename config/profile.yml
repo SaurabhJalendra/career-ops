@@ -55,26 +55,31 @@ narrative:
       hero_metric: "CNN+LSTM fusion, 76% F1 on non-lens detection, 20K DES-deep samples"
 
 compensation:
-  target_range: "SGD 120K-180K / CHF 120K-160K / GBP 80K-120K / EUR 90K-130K / INR 40-80 LPA + equity"
-  currency: "varies by country"
-  minimum: "SGD 96K / CHF 100K / GBP 65K / EUR 75K / INR 30 LPA"
-  location_flexibility: "Open to relocate to Singapore, Switzerland, United Kingdom, Luxembourg, France, Canada, USA. Remote acceptable. India also acceptable as immediate-start backup."
-  india_context: "For Indian roles, the country-level target covers Indian frontier labs (Sarvam, Krutrim) and big-tech research arms (Microsoft Research India, Google Research India, NVIDIA AI India, Adobe Research India, IBM Research India). Indian offices of MNCs may also serve as bridge to international transfer. Within-India city preference order is informational only: Bangalore > Hyderabad > Pune > Delhi NCR > Remote-India."
+  # NARROWED 2026-05-24: Singapore primary + Bangalore backup only
+  target_range: "SGD 80K-150K (Singapore mid-level) / INR 40-80 LPA + equity (Bangalore mid-level)"
+  currency: "SGD or INR"
+  minimum: "SGD 60K (Employment Pass floor adjusted) / INR 30 LPA"
+  location_flexibility: "Open to relocate to Singapore (PRIMARY). Bangalore acceptable as BACKUP / parallel pipeline (citizen, no visa needed). EXPANSION tier added 2026-07-29: Switzerland (Zurich/Lausanne — research-institution + big-tech routes; non-EU quota permits, longer timeline) and Hong Kong (Employment visa GEP, employer-sponsored, no quota; Klares was built for HK family-office finance clients — direct market credibility). Other countries still descoped."
+  india_context: "Indian roles target Bangalore only (Hyderabad/Pune/Delhi NCR descoped). Tiers: (1) Indian frontier labs — Sarvam, Krutrim, Yellow.ai. (2) MNC research India as bridge to international transfer — Microsoft Research India, Google Research India / DeepMind India, NVIDIA AI India, Adobe Research India, IBM Research India. (3) Applied AI India — Amazon Science India, Apple India ML, Walmart Global Tech, Flipkart Labs. (4) Indian unicorn ML / fintech — Razorpay, Cred, PhonePe, Slice, Swiggy, Zomato, Meesho, Fractal Analytics."
 
 location:
   country: "India"
   current_city: "Jaipur"
   timezone: "IST (UTC+5:30)"
-  visa_status: "Requires sponsorship for foreign target countries. NO sponsorship needed for India-based roles (citizen)."
+  visa_status: "Singapore Employment Pass required (employer sponsors); NO visa needed for India-based roles (citizen)."
+  # NARROWED 2026-05-24: 8 countries → 2; EXPANDED 2026-07-29: + Switzerland, Hong Kong
   target_countries:
-    - Singapore
-    - Switzerland
-    - United Kingdom
+    - Singapore     # PRIMARY
+    - India         # BACKUP — Bangalore only
+    - Switzerland   # EXPANSION 2026-07-29 — Zurich/Lausanne; ETH/EPFL/CERN research routes + big-tech Zurich; non-EU quota permits (slow, not an Aug-31 lever)
+    - Hong Kong     # EXPANSION 2026-07-29 — GEP employment visa (no quota); HKGAI, HKUST/HKU, bank AI teams; Klares HK finance-client hook
+  india_priority_cities: ["Bangalore"]   # Hyderabad/Pune/Delhi NCR descoped 2026-05-24
+  willing_to_relocate_within_india: true
+  international_priority: "Singapore is the priority outcome. Bangalore is the realistic-fast-offer parallel that also functions as a bridge to Singapore via MNC internal transfers (MSR India → Microsoft SG; Adobe India → Adobe SG; NVIDIA India → NVIDIA SG). Accept first acceptable Bangalore offer; use as leverage / experience-building toward Singapore in 18-24 months."
+  descoped_countries_2026_05_24:
+    # Switzerland un-parked 2026-07-29 → moved to target_countries
+    - United Kingdom  # held — re-add if Anthropic London / DeepMind London becomes viable post-publication
     - France
     - Luxembourg
-    - Canada
     - USA
-    - India
-  india_priority_cities: ["Bangalore", "Hyderabad", "Pune", "Delhi NCR", "Remote-India"]
-  willing_to_relocate_within_india: true
-  international_priority: "Foreign countries preferred for primary research engineering targets where visa sponsored. India serves as parallel pipeline + immediate-start backup."
+    - Canada
